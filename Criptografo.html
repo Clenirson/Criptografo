@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Criptografo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Texturina:wght@100&display=swap" rel="stylesheet">
+    
+    <title>Encriptor</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Encryptor</h1>
+    </header>
+    <main>
+        <section>
+            <textarea cols="70" rows="20" class="principal" placeholder="Digite seu texto" ></textarea>
+
+            <textarea cols="50" rows="20" class="resultado" placeholder="Resultado"></textarea>
+        </section>
+
+            <div>
+                <h6 class="info">Apenas letras maiusculas e minusculas</h6>
+            </div>
+
+        <section>
+            <input type="submit" value="Encriptografar" class="codificar" onclick="codificar()">
+
+            <input type="submit" value="Descriptografar" class="descodificar" onclick="descodificar()">
+
+            <input type="submit" value="Copiar resultado" class="copiar" onclick="copiar()">
+        </section>
+
+    </main>
+
+    <script src="criptografo.js"></script>
+
+    <footer>
+        <p class="copyright">&copy; Copyright Marlon Fernandes - 2023</p>
+    </footer>
+</body>
+</html>
